@@ -93,7 +93,7 @@ img{
     text-transform: none;
 }
 #news{
-    background-image:url(awsedrftgy_TP_V.jpg);
+    background-image:url(KAZ19514004_TP_V.jpg);
     background-color: #63bcfc;
     background-blend-mode: darken;
     height:270px;
@@ -200,6 +200,10 @@ aside p{
     }
     .home-content{
         margin-top: 20%;
+        color:rgb(23, 250, 193);
+    }
+    .home-content p{
+        margin:10px 0 40px;
     }
     .page-header{
         flex-direction: column;
