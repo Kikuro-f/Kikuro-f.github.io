@@ -107,7 +107,7 @@ footer{
     text-align: center;
     padding: 26px 0;
 }
-footter p{
+footer p{
     color: #fff;
     font-size: 0.875rem;
 }
@@ -187,6 +187,143 @@ aside p{
 .sub-menu a:hover{
     color: #0bd;
 }
+#works{
+    background-image: url(macbook1989_TP_V.jpg);
+    min-height: 100vh;
+}
+.works-content{
+    max-width: 560px;
+    margin-top: 10%;
+}
+.works-content .page-title{
+    text-align: center;
+}
+.works-content p{
+    font-size: 1.125rem;
+    margin: 10px 0 0;
+}
+.grid{
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+.item{
+    height: 100%;
+    width: 100%;
+    color: #000;
+    font-family:"Yu Gothic Medium", sans-serif;
+}
+.item img{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
+.item p{
+    text-align: center;
+}
+#contact{
+    background-image: url(180623kanazawaDSC00051_TP_V.jpg);
+    background-color: #7d93a3;
+    background-blend-mode: darken;
+    min-height: 100vh;
+}
+form div{
+    margin-bottom: 14px;
+}
+label{
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+}
+input[type="text"], input[type="email"], textarea{
+    background: #ffffff;
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+input[type="text"], input[type="email"]{
+    width: 100%;
+    max-width: 240px;
+}
+textarea{
+    width: 100%;
+    max-width: 480px;
+    height: 6rem;
+}
+input[type="submit"]{
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+}
+#profile{
+    background-image: url(maeda3gou1230108_TP_V_2.jpg);
+    height:270px;
+    margin-bottom:0px;
+}
+#profile .page-title{
+    text-align: center;
+}
+.profile-content{
+    background-color: black;
+    margin: 0;
+    max-width: none;
+}
+.profile-content h2{
+    padding-top: 20px;
+    margin-bottom: 15px;
+    font-family: 'Philosopher',serif;
+} 
+.profile-content p{
+    padding-bottom: 10px;
+} 
+.author h2{
+    font-size: 2rem;
+} 
+.image{
+    max-width: 50%;
+    display: block;
+    /*margin: auto;*/
+}
+.history-item{
+    padding: 10px;
+}
+.history-item p{
+    padding-bottom: 0;
+}
+.life-grid p{
+    font-size: 2.5rem;
+    padding: 20%;
+    font-family: 'Philosopher',serif;
+}
+.research{
+    background-image: url(0b593b39d290ce81d1f1187b4bd71458_s.jpg);
+    background-size: cover;
+}
+.develop{
+    background-image: url(8f61f2827f60779348f88168de8d7928_s.jpg);
+    color: white;
+    background-size: cover;
+}
+.body{
+    background-image: url(man-461195_1920.jpg);
+    color: white;
+    background-size: cover;
+}
+.cook{
+    background-image: url(cook-2364221_1920.jpg);
+    background-size: cover;
+}
+.life-grid{
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(2, minmax(240px, 1fr));
+    margin-top: 1%;
+    padding-bottom: 50px;
+}
+
 @media(max-width: 600px){
     .page-title{
         font-size:2.5rem;
@@ -200,7 +337,6 @@ aside p{
     }
     .home-content{
         margin-top: 20%;
-        color:rgb(23, 250, 193);
     }
     .home-content p{
         margin:10px 0 40px;
@@ -214,5 +350,21 @@ aside p{
     }
     article, aside{
         width: 100%;
+    }
+    .works-content{
+        margin-top: 20%;
+    }
+    .grid{
+        grid-column: auto;
+        grid-row: auto;
+    }
+    #contact .page-title{
+        margin-top: 40px;
+    }
+    input[type="text"], input[type="email"], textarea{
+        max-width: 100%;
+    }
+    .life-grid{
+        grid-template-columns: repeat(1, minmax(240px, 1fr));
     }
 }

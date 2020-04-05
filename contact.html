@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charaset="utf-8">
-        <title>KKR Portfolio</title>
+        <title>KKR Portfolio - CONTACT</title>
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
         <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
         <link rel="stylesheet" href="stylesheet.css">
@@ -11,7 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <div id="home" class="big-bg">
+        <div id="contact" class="big-bg">
             <header class="page-header wrapper">
                 <h1>
                     <a href="index.html"><img class="logo" src="logo4.png" alt="KKRホームページ"></a>
@@ -27,14 +27,30 @@
                     </ul>
                 </nav>
             </header>
-            <div class="home-content wrapper"> 
-                <h2 class="page-title">I'll Make My Day</h2>
-                <p>願望が決断になったとき未来は動き始める</p>
-                <a class="button" href="works.html">作品を見る</a>
+            <div class="wrapper">
+                <h2 class="page-title">Contact</h2>
+                <form action="#">
+                    <div>
+                        <label for="name">お名前</label>
+                        <input type="text" id="name" name="your name">
+                    </div>
+                    <div>
+                        <label for="email">メールアドレス</label>
+                        <input type="email" id="email" name="your-email">
+                    </div>
+                    <div>
+                        <label for="message">メッセージ</label>
+                        <textarea id="message" name="your-message"></textarea>
+                    </div>
+                    <input type="submit" class="button" value="送信">                    
+                </form>
             </div>
         </div>
+        
+        
         <footer>
-    
+            <div class="wrapper">
+                <p><small>&copy; 2020 KKR</small></p>
+            </div>
         </footer>
-    </body>
 </html>
