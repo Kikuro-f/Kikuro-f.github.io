@@ -85,7 +85,7 @@ img{
     background-repeat: no-repeat;
 }
 #home{
-    background-image: url(macbook1697_TP_V.jpg), linear-gradient(#c9ffbf, #ffafbd);
+    background-image: url(index/header_index.jpg), linear-gradient(#c9ffbf, #ffafbd);
     background-blend-mode: luminosity;
     min-height: 100vh;
 }
@@ -93,7 +93,7 @@ img{
     text-transform: none;
 }
 #news{
-    background-image:url(KAZ19514004_TP_V.jpg);
+    background-image:url(news/header_news.jpg);
     background-color: #63bcfc;
     background-blend-mode: darken;
     height:270px;
@@ -188,7 +188,7 @@ aside p{
     color: #0bd;
 }
 #works{
-    background-image: url(macbook1989_TP_V.jpg);
+    background-image: url(works/header_works.jpg);
     min-height: 100vh;
 }
 .works-content{
@@ -224,7 +224,7 @@ aside p{
     text-align: center;
 }
 #contact{
-    background-image: url(180623kanazawaDSC00051_TP_V.jpg);
+    background-image: url(contact/header_contact.jpg);
     background-color: #7d93a3;
     background-blend-mode: darken;
     min-height: 100vh;
@@ -259,7 +259,7 @@ input[type="submit"]{
     line-height: 1;
 }
 #profile{
-    background-image: url(maeda3gou1230108_TP_V_2.jpg);
+    background-image: url(profile/header_profile.jpg);
     height:270px;
     margin-bottom:0px;
 }
@@ -299,21 +299,21 @@ input[type="submit"]{
     font-family: 'Philosopher',serif;
 }
 .research{
-    background-image: url(0b593b39d290ce81d1f1187b4bd71458_s.jpg);
+    background-image: url(profile/research_profile.jpg);
     background-size: cover;
 }
 .develop{
-    background-image: url(8f61f2827f60779348f88168de8d7928_s.jpg);
+    background-image: url(profile/develop_profile.jpg);
     color: white;
     background-size: cover;
 }
 .body{
-    background-image: url(man-461195_1920.jpg);
+    background-image: url(profile/body_profile.jpg);
     color: white;
     background-size: cover;
 }
 .cook{
-    background-image: url(cook-2364221_1920.jpg);
+    background-image: url(profile/cook_profile.jpg);
     background-size: cover;
 }
 .life-grid{
