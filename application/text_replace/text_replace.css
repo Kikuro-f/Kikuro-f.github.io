@@ -1,0 +1,11 @@
+@charset "UTF-8";
+html{
+    font-size:100%;
+}
+body{
+    font-family:"Yu Gothic Medium", sans-serif;
+    color: #000;
+    background-color: antiquewhite;
+    line-height:1.7;
+    display: block;
+}

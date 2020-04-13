@@ -218,10 +218,12 @@ aside p{
 .item img{
     height: 90%;
     width: 100%;
-    object-fit: cover;
+    /*object-fit: cover;*/
+    background-size: cover;
 }
 .item p{
     text-align: center;
+    font-family: 'Philosopher',serif;
 }
 #contact{
     background-image: url(contact/header_contact.jpg);
