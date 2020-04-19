@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body{
+    background-image: url(background_bmi.png);
+}
+.redText{
+    color: red;
+}
+.font16{
+    font-size: 16pt;
+}
+.displayNone{
+    display: None;
+}
+input{
+    border: 2px solid #0a0; 
+}
+h1, p{
+    text-align: center;
+}
+div{
+    width: 15em;
+    margin: 0 auto;
+}
